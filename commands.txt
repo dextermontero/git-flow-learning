@@ -26,4 +26,9 @@ git flow feature finish feature_branch
 git push origin
 
 
-git flow release start '0.1'
+git flow release start '0.1.0'
+
+git push --set-upstream origin release/0.1.0
+
+
+
