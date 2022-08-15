@@ -1,0 +1,9 @@
+Cloning repository
+git clone URL
+
+// Initialize
+git flow init
+
+// view all branch
+git branch -a
+
