@@ -31,4 +31,11 @@ git flow release start '0.1.0'
 git push --set-upstream origin release/0.1.0
 
 
+git flow release finish '0.1.0'
+
+
+git push origin
+
+
+git tag -l
 
