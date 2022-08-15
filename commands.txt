@@ -1,0 +1,34 @@
+Cloning repository
+git clone URL
+
+// Initialize
+git flow init
+
+// view all branch
+git branch -a
+
+
+// Start feature branch
+git flow feature start feature_branch
+
+// create file
+touch feature.html
+
+// adding file to commint
+git add .
+
+// committing 
+git commit -m ""
+
+// Committing feature branch 
+git flow feature finish feature_branch
+
+git push origin
+
+
+git flow release start '0.1.0'
+
+git push --set-upstream origin release/0.1.0
+
+
+
